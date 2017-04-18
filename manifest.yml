@@ -1,0 +1,15 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: miiotdemo
+  host: mi-iot-demo
+  disk_quota: 1024M
+  services:
+  - Internet of Things Platform-ro
+  - miiotdemo-cloudantNoSQLDB
+  - miiotdemo-iotf-service
+  - Conversation-ft
+  - Texto a voz-wa
+  - Voz a texto-8w
